@@ -1,0 +1,69 @@
+h1{
+    color: red;
+}
+
+
+
+
+p{
+     /* border-style: none;  *  default Property */
+     border-style: solid;
+     /* border-style: dotted; */
+     /* border-style: dashed; */
+     /* border-style: double; */
+
+
+border-top-style:dashed ;
+border-bottom-style: dotted;
+border-right-style: double;
+
+
+/* short hand property  4 value */
+/* border-style: top right bottom left; */
+    border-style: solid dotted dashed none;
+
+
+    /* sort hand property only for two values top-bottom and right-left */
+    border-style: double dotted;
+
+
+
+     /* BORDER WIDTH Default property*/
+     /* thick medium thin */
+    border-width: thick;
+    border-width: medium;
+    border-width: thin;
+    border-width: 5px ; 
+    /* border-top-width: 2px;  */
+    /* bottom left right */
+
+
+    border-color: orangered;
+    border-bottom-color: red;
+    /* top left right */
+
+}
+
+a{
+    border-style: solid;
+    padding: 2px 10px;
+    border-color: orangered;
+    border-width: 2px;
+    border-radius: 10px; /* no rounded*/
+    color: orange;
+
+    /* stylish logo */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+}    
+
+a:hover{
+    color: black;
+    background-color: orange;
+}
+
+
+table,td,tr,th{
+    border: solid 2px rgb(82, 73, 73);
+    border-collapse: collapse;
+}
